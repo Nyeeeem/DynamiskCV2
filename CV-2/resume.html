@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+
+    <title>Resumé</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Flamenco&family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300&family=Viaoda+Libre&display=swap" rel="stylesheet">
+
+
+</head>
+
+
+
+<body>
+
+    <div class = "container" > 
+
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav"> 
+          <a href="./main-page.html" class="active">Anastasia Falk</a>
+        
+          <div id="myLinks"> 
+            <a href = "./main-page.html" class = "">Projects</a></li>
+            <a href = "./resume.html" class = "nav-link">Resumé</a> </li><br>
+            <a href = "./about-file.html" class = "nav-link">About</a></li>
+        
+          </div>
+    
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+    
+            </div>
+    </div>
+    
+    <div class = "img">
+        <div class="feature-text-column-resume, hero-text" >
+            <h1>What I've been up to </h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti hic qui esse officiis, iure ad repudiandae placeat vero ullam quasi ipsa!</p>
+            
+        </div>
+    </div>
+ 
+    </div>
+
+    
+<div class="page-container">
+    <div class="header">
+        <h1>Resumé </h1></header> <br>
+        <h2>Education</h2></div>
+     
+        </div>
+
+
+       <!-- Container1-->
+
+    <div class = "feature-resume">
+   
+     <div id="education" class="feature-text-column-resume-left" >
+ 
+    </div>
+
+    <div id="program" class="feature-text-column-resume-right" > 
+
+        <div id ="year" ></div>
+
+    </div>
+    </div>
+    
+      <!--   <div id ="year"  class="feature-text-column-resume-right" >  </div> -->
+      <div class="page-container-work">
+        <div class="header">
+            <h2>Work</h2></div>
+            </div>
+
+            
+    <div class = "feature-resume-work">
+   
+        <div id="experience-work" >
+  
+       </div>
+         
+
+
+       
+    </div>
+
+    <footer>
+        <div class="contact-about" >
+            <h1>Let's keep in touch!</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores reprehenderit aperiam animi unde, ipsam sapiente mollitia, minima deleniti hic qui esse officiis, iure ad repudiandae placeat vero ullam quasi ipsa!</p>
+            <button>
+                <a href="mailto:anastasiya.afanaseva@hotmail.com"> Email</a></button>
+                <button>  <a href="https://www.linkedin.com/login/sv" target="_blank"> LinkedIn</a></button>
+                <button>  <a href="https://www.behance.net/anastasafanase" target="_blank"> Behance</a></button>
+        </div>
+        
+    
+        <script src = "java.js"></script>
+        <script src = "bar.js"></script>
+
+        <script> fetch("../resume.json")
+                .then(res => res.json())
+                .then(data => {
+                    console.log(data);
+                });
+        
+        </script>
+      
+
+</body>

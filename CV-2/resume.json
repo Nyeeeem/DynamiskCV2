@@ -1,0 +1,33 @@
+{
+  
+    "education": {
+      "schools": [
+
+        {
+          "degree": "UX/UI with Front End 2022-2024",
+          "institution": "Chas Academy"
+        },
+
+        {
+          "degree": "Crossmedia Design 2020",
+          "institution": "Runö Academy"
+        },
+
+        { 
+          "degree": "Bachelor of Economics 2013-2017",
+          "institution": "Uppsala University "
+        }
+      ]
+    },
+
+    "work": [
+      {            
+          "experience": "Systembolaget - varugruppsansvar under heltidsarbete"
+      },
+
+      {            
+        "experience": "SEB-kort, summer 2016"
+    }
+  ]
+
+    }
